@@ -43,20 +43,4 @@ jdbc:mysql://localhost:3306/[databaseName]?allowPublicKeyRetrieval=true&useSSL=f
     "toCurrency":"CAD",
     "dealAmount": 423
     }
- ```## How to use
-* after run a project, open a Posatman:
-
-    1) select POST method
-    2) put this url in box: http://localhost:8080/api/insertDeal
-    3) insert data in Body section
-
-
-* Request
-    ```sh
-    {
-                
-    "fromCurrency":"USD",
-    "toCurrency":"CAD",
-    "dealAmount": 423
-    }
  ```
