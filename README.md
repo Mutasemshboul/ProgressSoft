@@ -24,9 +24,7 @@ then change the username and password to your own
 create a database then put your database name
 
 jdbc:mysql://localhost:3306/[databaseName]?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
-## How to run
-* mvn clean install to clean if exists files and install packages
-* mvn spring-boot: run to start spring boot
+
 ## How to use
 * after run a project, open a Posatman:
 
